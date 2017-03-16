@@ -22,10 +22,13 @@
     <link rel="stylesheet" type="text/css" href="static/grid.min.css">
     <link rel="stylesheet" type="text/css" href="static/dimmer.min.css">
     <link rel="stylesheet" type="text/css" href="static/button.min.css">
+    <link rel="stylesheet" type="text/css" href="static/form.min.css">
+    <link rel="stylesheet" type="text/css" href="static/input.min.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Jim+Nightshade" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="static/sidebar.min.js"></script>
     <script src="static/dimmer.min.js"></script>
+    <script src="static/form.min.js"></script>
 </head>
 
 <body>
@@ -37,7 +40,7 @@
     </div>
 
     <div class="ui left demo vertical inverted sidebar menu sidebarmenu">
-        <a class="item"><i class="home icon"></i> Home</a>
+        <a class="item" href="index.html"><i class="home icon"></i> Home</a>
         <a class="active item"><i class="feed icon"></i> Blog</a>
         <a class="item"><i class="edit icon"></i> Projects</a>
         <a class="item"><i class="remove bookmark icon"></i> Resume</a>
@@ -55,14 +58,25 @@
                         <div class="column">
                         </div>
                         <div class="nine wide column">
-
-                            <button class="ui blue basic left floated icon button">
+                            <div class="column ui equal width grid">
+                                <div class="column">
+                                    <button class="ui blue basic left floated icon button">
                                     <i class="left chevron icon"></i>Prev
-                            </button>
-                            <button class="ui blue basic right floated icon button">Next
+                                </button>
+                                </div>
+                                <div class="column">
+                                    <div class="center aligned">
+                                        <div class="ui input focus">
+                                            <input type="text" placeholder="1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <button class="ui blue basic right floated icon button">Next
                                     <i class="right chevron icon"></i>
-                            </button>
-
+                                </button>
+                                </div>
+                            </div>
                             <div class="ui items">
                                 <div class="item">
                                     <div class="image">
@@ -167,12 +181,25 @@
                                     </div>
                                 </div>
 
-                                <button class="ui blue basic left floated icon button">
+                                <div class="column ui equal width grid">
+                                    <div class="column">
+                                        <button class="ui blue basic left floated icon button">
                                     <i class="left chevron icon"></i>Prev
-                            </button>
-                                <button class="ui blue basic right floated icon button">Next
+                                </button>
+                                    </div>
+                                    <div class="column">
+                                        <div class="center aligned">
+                                            <div class="ui input focus">
+                                                <input type="text" placeholder="1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <button class="ui blue basic right floated icon button">Next
                                     <i class="right chevron icon"></i>
-                            </button>
+                                </button>
+                                    </div>
+                                </div>
 
 
                             </div>
