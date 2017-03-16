@@ -1,0 +1,79 @@
+body,
+html {
+    padding: 0em;
+    margin: 0em
+}
+
+html {
+    overflow: auto;
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.pagedata {
+    min-width: 100%;
+    padding-top: 0em;
+    margin-top: 0em;
+}
+
+.frontimage {
+    max-height: 100vh;
+}
+
+.frontcard {
+    min-width: 100% !important;
+    margin: 0em !important;
+}
+
+.conseg {
+    top: -1px;
+    padding-bottom: 5em !important;
+}
+
+.cardcontent {
+    padding: 0em !important;
+    min-height: 25em !important;
+}
+
+.myworld {
+    margin-top: 30px !important;
+    font-size: 7vh !important;
+}
+
+.items {
+    margin-top: 100px !important;
+}
+
+.topmenuseg {
+    border-radius: 0em !important;
+    position: fixed !important;
+    padding: 0em !important;
+    margin: 0em !important;
+    z-index: 999 !important;
+    min-width: 100% !important;
+    top: -3px !important;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(150, 150, 150, 0.8);
+}
+
+.sidebarmenu {
+    top: 2.85714286em !important;
+}
+
+.footer {
+    padding: 0em !important;
+}
+
+.footerseg {
+    height: 7em !important;
+    border-radius: 0em !important;
+}
