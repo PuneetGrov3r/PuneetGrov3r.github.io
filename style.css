@@ -26,6 +26,12 @@ body {
 .frontcard {
     min-width: 100% !important;
     margin: 0em !important;
+    padding: 0em !important;
+}
+
+.pusher {
+    position: absolute !important;
+    min-width: 100% !important;
 }
 
 .conseg {
