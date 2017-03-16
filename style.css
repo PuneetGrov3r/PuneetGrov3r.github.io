@@ -83,10 +83,14 @@ body {
 }
 
 .footerseg {
-    height: 7em !important;
+    min-height: 7em !important;
     border-radius: 0em !important;
 }
 
 .footergrid {
     margin-top: 1em !important;
+}
+
+.blogcontent {
+    min-height: 50em !important;
 }
