@@ -54,8 +54,11 @@ body {
     margin-top: 100px !important;
 }
 
-.topmenuseg {
+.segment {
     border-radius: 0em !important;
+}
+
+.topmenuseg {
     position: fixed !important;
     padding: 0em !important;
     margin: 0em !important;
@@ -82,4 +85,8 @@ body {
 .footerseg {
     height: 7em !important;
     border-radius: 0em !important;
+}
+
+.footergrid {
+    margin-top: 1em !important;
 }

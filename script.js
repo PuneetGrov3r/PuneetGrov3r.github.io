@@ -36,7 +36,6 @@ function start() {
     for (i = 0; i < $menumain.length; i++) {
         $menumain[i].addEventListener("click", sidemenutoggle, false);
     }
-    $('.ui.search.country').search({ source: country });
 
 }
 window.onload = start;
