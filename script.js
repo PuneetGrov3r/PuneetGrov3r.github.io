@@ -36,6 +36,12 @@ function start() {
     for (i = 0; i < $menumain.length; i++) {
         $menumain[i].addEventListener("click", sidemenutoggle, false);
     }
+    $('.message .close')
+        .on('click', function() {
+            $(this)
+                .closest('.message')
+                .transition('fade');
+        });
 
 }
 window.onload = start;
