@@ -36,7 +36,7 @@ function start() {
     for (var i = 0; i < $signup.length; i++) {
         $signup[i].addEventListener("click", signupshow, false);
     }
-    for (var i = 0; i < $signup.length; i++) {
+    for (i = 0; i < $signup.length; i++) {
         $signup[i].addEventListener("click", signupshow, false);
     }
     for (i = 0; i < $about.length; i++) {
