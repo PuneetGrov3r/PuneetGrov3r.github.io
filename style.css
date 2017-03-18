@@ -19,9 +19,12 @@
         color: #2DBE60;
         margin-bottom: 0em;
     }
+    .warmsg {
+        font-size: 1vw !important;
+    }
 }
 
-@media only screen and (min-device-width: 0) and (max-device-width: 665px) {
+@media only screen and (max-device-width: 665px) {
     .bloghead1 {
         min-height: 40vw !important;
     }
@@ -35,6 +38,13 @@
         color: #2DBE60;
         margin-bottom: 0em;
     }
+    .warmsg {
+        visibility: hidden !important;
+    }
+}
+
+@media only screen and (max-device-width: 430px) {
+    .frontcard {}
 }
 
 body,
