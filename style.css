@@ -133,3 +133,29 @@ body {
 .blogcontent {
     min-height: 50em !important;
 }
+
+.sitelink:link {
+    color: #794b02;
+    text-decoration: none;
+}
+
+
+/* visited link */
+
+.sitelink:visited {
+    color: grey;
+}
+
+
+/* mouse over link */
+
+.sitelink:hover {
+    color: #2575d0;
+}
+
+
+/* selected link */
+
+.sitelink:active {
+    color: #2DBE60;
+}
