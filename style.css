@@ -23,6 +23,9 @@
     .warmsg {
         font-size: 1vw !important;
     }
+}
+
+@media only screen and (min-device-width: 766px) {
     .projhead2 {
         -ms-transform: rotate(-90deg);
         -webkit-transform: rotate(-90deg);
@@ -36,7 +39,23 @@
     }
 }
 
+@media only screen and (max-device-width: 767px) {
+    .projhead1 {
+        top: 3em !important;
+        position: relative !important;
+    }
+    .projhead2 {
+        position: relative !important;
+        font-size: 10vw;
+        margin-left: 30vw !important;
+        font-family: 'Days One', cursive;
+    }
+}
+
 @media only screen and (max-device-width: 665px) {
+    .hidsmall {
+        visibility: hidden;
+    }
     .bloghead1 {
         min-height: 40vw !important;
     }
@@ -52,16 +71,6 @@
     }
     .warmsg {
         visibility: hidden !important;
-    }
-    .projhead1 {
-        position: relative !important;
-    }
-    .projhead2 {
-        position: relative !important;
-        font-size: 10vw;
-        margin-left: 30vw !important;
-        font-family: 'Days One', cursive;
-        top: 3em !important;
     }
 }
 
