@@ -27,6 +27,7 @@
 
 @media only screen and (min-device-width: 766px) {
     .projhead2 {
+        z-index: 500 !important;
         -ms-transform: rotate(-90deg);
         -webkit-transform: rotate(-90deg);
         transform: rotate(-90deg);
