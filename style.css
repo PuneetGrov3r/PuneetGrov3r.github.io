@@ -23,6 +23,17 @@
     .warmsg {
         font-size: 1vw !important;
     }
+    .projhead {
+        -ms-transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        font-family: 'Days One', cursive;
+        font-size: 19vh;
+        margin: 0em !important;
+        position: fixed;
+        left: -1.5em !important;
+        top: 2.3em !important;
+    }
 }
 
 @media only screen and (max-device-width: 665px) {
