@@ -1,25 +1,12 @@
+::-moz-selection {
+    background: #ccf2ff;
+}
+
+::selection {
+    background: #ccf2ff;
+}
+
 @media only screen and (min-device-width: 666px) {
-    .bloghead1 {
-        min-height: 20vw !important;
-        background-color: #EFF2F3;
-    }
-    .bloghead2 {
-        top: -13vw !important;
-        position: relative !important;
-        z-index: 9;
-    }
-    .bloghead3 {
-        -ms-transform: rotate(-10deg);
-        /* IE 9 */
-        -webkit-transform: rotate(-10deg);
-        /* Chrome, Safari, Opera */
-        transform: rotate(-10deg);
-        -moz-transform: rotate(-10deg);
-        font-size: 8vw;
-        font-family: 'Finger Paint', cursive;
-        color: #2DBE60;
-        margin-bottom: 0em;
-    }
     .warmsg {
         font-size: 1vw !important;
     }
@@ -38,9 +25,112 @@
         left: -1.5em !important;
         top: 2.3em !important;
     }
+    #ribbon {
+        top: 2.85714286em;
+        right: 20px;
+        width: 180px;
+        height: 350px;
+        position: fixed;
+        overflow: hidden;
+    }
+    #ribbon .inset {
+        width: 200px;
+        height: 60px;
+        position: absolute;
+        top: -50px;
+        left: -10px;
+        z-index: 5;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    }
+    #ribbon .container {
+        position: relative;
+        width: 100px;
+        height: 300px;
+        overflow: hidden;
+        margin: 0 auto;
+        border-left: 1px solid #631a15;
+        border-right: 1px solid #631a15;
+    }
+    #ribbon .base {
+        height: 250px;
+        width: 100px;
+        background: rgb(199, 59, 60);
+        background: -moz-linear-gradient(top, rgba(199, 59, 60, 1) 0%, rgba(184, 32, 31, 1) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(199, 59, 60, 1)), color-stop(100%, rgba(184, 32, 31, 1)));
+        background: -webkit-linear-gradient(top, rgba(199, 59, 60, 1) 0%, rgba(184, 32, 31, 1) 100%);
+        background: -o-linear-gradient(top, rgba(199, 59, 60, 1) 0%, rgba(184, 32, 31, 1) 100%);
+        background: -ms-linear-gradient(top, rgba(199, 59, 60, 1) 0%, rgba(184, 32, 31, 1) 100%);
+        background: linear-gradient(top, rgba(199, 59, 60, 1) 0%, rgba(184, 32, 31, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#c73b3c', endColorstr='#b8201f', GradientType=0);
+        position: relative;
+        z-index: 2;
+    }
+    #ribbon .base:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 86px;
+        left: 6px;
+        height: 292px;
+        border-left: 1px dashed #631a15;
+        border-right: 1px dashed #631a15;
+    }
+    #ribbon .base:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 86px;
+        left: 7px;
+        height: 292px;
+        border-left: 1px dashed #da5050;
+        border-right: 1px dashed #da5050;
+    }
+    #ribbon .left_corner {
+        width: 100px;
+        height: 100px;
+        background: #b8201f;
+        position: absolute;
+        bottom: 20px;
+        left: -50px;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    #ribbon .right_corner {
+        width: 100px;
+        height: 100px;
+        background: #b8201f;
+        position: absolute;
+        bottom: 20px;
+        right: -50px;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .bloghead {
+        top: 150px;
+        position: relative!important;
+        font-size: 60px;
+        left: 4px;
+        font-family: 'Days One', cursive;
+        -ms-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: white;
+    }
 }
 
-@media only screen and (max-device-width: 767px) {
+@media only screen and (max-device-width: 765px) {
     .projhead1 {
         top: 3em !important;
         position: relative !important;
@@ -51,24 +141,14 @@
         margin-left: 30vw !important;
         font-family: 'Days One', cursive;
     }
+    #ribbon {
+        visibility: hidden;
+    }
 }
 
 @media only screen and (max-device-width: 665px) {
     .hidsmall {
         visibility: hidden;
-    }
-    .bloghead1 {
-        min-height: 40vw !important;
-    }
-    .bloghead2 {
-        top: -17vw !important;
-        position: relative !important;
-    }
-    .bloghead3 {
-        font-size: 8vw;
-        font-family: 'Finger Paint', cursive;
-        color: #2DBE60;
-        margin-bottom: 0em;
     }
     .warmsg {
         visibility: hidden !important;
