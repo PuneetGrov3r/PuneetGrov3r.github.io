@@ -23,7 +23,7 @@
     .warmsg {
         font-size: 1vw !important;
     }
-    .projhead {
+    .projhead2 {
         -ms-transform: rotate(-90deg);
         -webkit-transform: rotate(-90deg);
         transform: rotate(-90deg);
@@ -52,6 +52,16 @@
     }
     .warmsg {
         visibility: hidden !important;
+    }
+    .projhead1 {
+        position: relative !important;
+    }
+    .projhead2 {
+        position: relative !important;
+        font-size: 10vw;
+        margin-left: 30vw !important;
+        font-family: 'Days One', cursive;
+        top: 3em !important;
     }
 }
 
