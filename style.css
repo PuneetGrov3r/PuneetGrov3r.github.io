@@ -12,6 +12,8 @@
     }
 }
 
+@media only screen and (max-device-width: 486px) {}
+
 @media only screen and (min-device-width: 766px) {
     .projhead2 {
         -ms-transform: rotate(-90deg);
