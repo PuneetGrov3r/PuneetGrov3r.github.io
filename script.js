@@ -30,7 +30,7 @@ function start() {
     }
 
     function aboutshow() {
-        $('.ui.long.modal')
+        $('.ui.small.modal')
             .modal('show');
     }
     for (var i = 0; i < $signup.length; i++) {
